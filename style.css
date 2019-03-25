@@ -1,9 +1,11 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffcbf8;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffcbf8;
 }
 
 .navbar {
@@ -18,7 +20,7 @@ body {
   color: white;
   text-decoration: none;
   font-size: 22px;
-  width: 100%; 
+  width: 100%;
   text-align: center;
 }
 
@@ -37,18 +39,18 @@ body {
     width: 100%;
     text-align: left;
   }
-} 
+}
 .content {
-    width: 70%;
-    height: 92%;
-    margin: auto;
-    background: #ededed;
-    padding: 10px;
+  width: 60%;
+  height: 92%;
+  margin: auto;
+  background: #ededed;
+  padding: 10px;
 }
 
 h3 {
-   color: #7510b3;
-   margin-top: 3%;
+  color: #7510b3;
+  margin-top: 3%;
 }
 
 .image {
@@ -61,4 +63,8 @@ h3 {
   text-align: center;
   font-size: 15px;
   padding: 4px;
+}
+
+.p-class {
+  margin-bottom: 50px;
 }
